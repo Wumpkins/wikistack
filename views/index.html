@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}WikiStack{% endblock %}
+
+{% block content %}
+    <h1>BROWSE MY WIKISTACK</h1>
+    <ul>
+  		{% for doc in docs %}
+    		<li><a href='#'></a></li>
+  		{% endfor %}
+	</ul>
+{% endblock %}
